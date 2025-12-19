@@ -16,6 +16,26 @@ This repo is intended to demonstrate:
 - **Escalation criteria for L2/L3 analysts**  
 - **Tool-agnostic thinking** that mirrors real-world SOC operations
 
+## 🚀 Biggest Lessons
+
+One of the biggest lessons I’ve learned while building my SOC lab is that tools matter less than knowing what to do with an alert.
+
+As a SOC Level 1 analyst, the real skill is triage:
+- **Understanding what an alert actually mean**
+- **Determining if it’s benign or suspicious**
+- **Validating evidence across logs**
+- **Deciding whether to escalate, contain, or close**
+
+In my lab, I now focus on process-first learning:
+- **Triage alerts before opening tools**
+- **Define true vs false positive indicators**
+- **Practice escalation decisions**
+- **Document investigation steps clearly**
+
+Once the process is clear, the tools simply support the decision.
+
+This mindset has changed how I approach SOC tools like SIEMs, IDS/IPS, and SOAR — and it’s helping me build skills that translate to real-world SOC environments.
+
 By practicing these workflows, SOC analysts can develop critical skills in **alert validation, incident assessment, and decision-making**, independent of the tools being used.
 
 ---
