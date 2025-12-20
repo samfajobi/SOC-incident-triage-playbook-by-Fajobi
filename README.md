@@ -38,6 +38,14 @@ This mindset has changed how I approach SOC tools like SIEMs, IDS/IPS, and SOAR 
 
 By practicing these workflows, SOC analysts can develop critical skills in **alert validation, incident assessment, and decision-making**, independent of the tools being used.
 
+
+## MITRE ATT&CK Alignment
+
+Each playbook includes relevant MITRE ATT&CK mappings to provide
+threat context and explain where the alert fits within the attack lifecycle.
+This helps guide triage decisions and escalation priorities.
+
+
 ---
 
 
