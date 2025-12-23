@@ -1,0 +1,1 @@
+Monitored Windows Server security logs using Wazuh; investigated authentication failures, account changes, service installations, and RDP activity while mapping events to MITRE ATT&CK techniques
