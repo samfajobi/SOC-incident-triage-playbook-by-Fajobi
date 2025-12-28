@@ -32,6 +32,49 @@ Examples:
 
 ---
 
+### 2️⃣ **Techniques** (the *HOW*)
+
+The **method** used to achieve that goal.
+
+Examples:
+
+* `T1059` – Command and Scripting Interpreter
+* `T1071.004` – DNS for C2
+* `T1003` – Credential Dumping
+* `T1055` – Process Injection
+
+---
+
+### 3️⃣ **Sub-techniques** (the *exact method*)
+
+More specific behavior.
+
+Example:
+
+* `T1059.001` – PowerShell
+* `T1071.004` – DNS C2
+
+---
+
+## Real-world example (SOC-style)
+
+### Alert observed:
+
+* Suspicious PowerShell execution
+* Encoded command
+* Outbound DNS requests to random-looking domains
+
+### Mapping:
+
+| Observation          | MITRE Mapping                                                 |
+| -------------------- | ------------------------------------------------------------- |
+| PowerShell execution | **Execution – T1059.001 (PowerShell)**                        |
+| Encoded command      | **Defense Evasion – T1027 (Obfuscated Files or Information)** |
+| DNS beaconing        | **Command and Control – T1071.004 (DNS)**                     |
+
+👉 You are mapping **each malicious action** to a MITRE technique.
+
+---
 
 
 
