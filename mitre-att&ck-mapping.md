@@ -121,3 +121,67 @@ This tells you **how bad the incident is**.
 
 ---
 
+### 3️⃣ To improve detections and defenses
+
+Once mapped, you can ask:
+
+* Do we detect this technique?
+* Do we alert early enough?
+* What technique do we NOT cover?
+
+This helps:
+
+* Tune SIEM rules
+* Improve EDR detections
+* Identify security gaps
+
+---
+
+### 4️⃣ To support threat hunting
+
+Hunters don’t hunt tools.
+They hunt **techniques**.
+
+Example:
+
+> “Show me all systems executing **T1059 PowerShell** with encoded commands.”
+
+MITRE gives hunters **what to look for**.
+
+---
+
+### 5️⃣ To compare attacks across time and actors
+
+Different attackers, same behavior.
+
+* TrickBot
+* Emotet
+* APT groups
+
+Different malware, **same techniques**.
+
+MITRE lets you:
+
+* Recognize patterns
+* Attribute attacks
+* Track campaigns
+
+---
+
+## What MITRE ATT&CK is NOT
+
+❌ Not a tool
+❌ Not an alerting system
+❌ Not malware signatures
+❌ Not a checklist
+
+✔ It is a **behavioral knowledge base**
+
+---
+
+## SOC mindset takeaway
+
+> **Alerts tell you something happened.
+> MITRE tells you what the attacker is doing.**
+
+---
