@@ -1,3 +1,4 @@
+# Mapping MITRE ATT&CK
 
 When we **map an attack to MITRE ATT&CK**, we are mapping **what the attacker did** (their **actions and behaviors**) to **standardized techniques and tactics** in the ATT&CK framework.
 
@@ -182,6 +183,6 @@ MITRE lets you:
 ## SOC mindset takeaway
 
 > **Alerts tell you something happened.
-> MITRE tells you what the attacker is doing.**
+> MITRE tells you what the attacker is doing or did and how.**
 
 ---
