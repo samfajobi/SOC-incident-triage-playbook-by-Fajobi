@@ -1,10 +1,37 @@
-# MITRE ATT&CK Coverage
 
-This document summarizes the MITRE ATT&CK techniques referenced
-across the SOC alert triage playbooks in this repository.
+When we **map an attack to MITRE ATT&CK**, we are mapping **what the attacker did** (their **actions and behaviors**) to **standardized techniques and tactics** in the ATT&CK framework.
 
-| Alert Type     | Tactic          | Technique ID | Technique Name             |
-|---------------|------------------|--------------|----------------------------|
-| Port Scan     | Reconnaissance   | T1046        | Network Service Scanning   |
-| Brute Force   | Credential Access| T1110        | Brute Force                |
-| Phishing      | Initial Access   | T1566        | Phishing                   |
+We are **NOT** mapping:
+
+* Tools
+* Malware names
+* CVE numbers
+* IP addresses
+
+We are mapping **attacker behavior**.
+
+---
+
+## What exactly are we mapping?
+
+We map **observed attack activities** to:
+
+### 1️⃣ **Tactics** (the *WHY*)
+
+The attacker’s **goal at that stage** of the attack.
+
+Examples:
+
+* Initial Access
+* Execution
+* Persistence
+* Privilege Escalation
+* Defense Evasion
+* Credential Access
+* Command and Control
+
+---
+
+
+
+
