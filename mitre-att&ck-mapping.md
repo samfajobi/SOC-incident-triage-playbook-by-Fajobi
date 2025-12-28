@@ -76,5 +76,48 @@ Example:
 
 ---
 
+## Why do we map attacks to MITRE ATT&CK?
 
+This is the **most important part**.
+
+---
+
+### 1️⃣ To speak a **common language**
+
+Instead of saying:
+
+> “We saw weird PowerShell stuff”
+
+You say:
+
+> “We observed **T1059.001 PowerShell execution** and **T1071.004 DNS C2**”
+
+Now:
+
+* SOC
+* IR
+* Threat Intel
+* Management
+
+…all understand the same thing.
+
+---
+
+### 2️⃣ To understand the attacker’s **kill chain**
+
+Mapping shows:
+
+* Where the attack started
+* How far it progressed
+* What the attacker was trying to achieve
+
+Example:
+
+* Initial Access ✔
+* Execution ✔
+* Persistence ❌
+
+This tells you **how bad the incident is**.
+
+---
 
